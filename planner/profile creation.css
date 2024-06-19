@@ -1,0 +1,281 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-gradient-to-r {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.from-gray-200 {
+    --tw-gradient-from: #edf2f7;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(237, 242, 247, 0));
+}
+
+.via-gray-400 {
+    --tw-gradient-stops: var(--tw-gradient-from), #cbd5e0, var(--tw-gradient-to, rgba(203, 213, 224, 0));
+}
+
+.to-gray-200 {
+    --tw-gradient-to: #edf2f7;
+}
+
+.shadow-2xl {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.rounded-3xl {
+    border-radius: 1.5rem;
+}
+
+/* Profile creation form styles */
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.max-w-4xl {
+    max-width: 64rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.p-6 {
+    padding: 1.5rem;
+}
+
+.p-8 {
+    padding: 2rem;
+}
+
+/* Profile image styles */
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+.change-photo-button {
+    color: #3490dc;
+    cursor: pointer;
+}
+
+.change-photo-button:hover {
+    text-decoration: underline;
+}
+
+/* Form input styles */
+.text-sm {
+    font-size: 0.875rem;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.text-zinc-700 {
+    color: #4a5568;
+}
+
+.mb-1 {
+    margin-bottom: 0.25rem;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
+
+.block {
+    display: block;
+}
+
+.mt-1 {
+    margin-top: 0.25rem;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.border {
+    border-width: 1px;
+}
+
+.border-zinc-300 {
+    border-color: #e2e8f0;
+}
+
+.rounded-md {
+    border-radius: 0.375rem;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.shadow-sm {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.focus\:outline-none:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.focus\:ring-indigo-500:focus {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+/* Checkbox styles */
+.form-checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0.5rem;
+    border-width: 2px;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.form-checkbox:checked {
+    background-color: #3490dc;
+    border-color: #3490dc;
+}
+
+/* Button styles */
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.bg-pink-500 {
+    background-color: #e91e63;
+}
+
+.hover\:bg-pink-700:hover {
+    background-color: #c2185b;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.transition {
+    transition: all 0.3s ease-in-out;
+}
+
+.transform {
+    transform: translateZ(0);
+}
+
+/* Image styles */
+.w-full {
+    width: 100%;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    color: #e71515;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+}

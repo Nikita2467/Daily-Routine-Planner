@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-image: url('/images/2825704.gif'); /* Add your GIF URL here */
+    background-size: cover; /* Cover the entire screen */
+    background-repeat: no-repeat; /* Prevent the GIF from repeating */
+    background-attachment: fixed; /* Keep the background fixed during scrolling */
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datetime-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#datetime {
+    font-size: 16px;
+    color: #fff; /* Adjust color for readability in dark mode */
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.heading h2 {
+    margin-top: 10px;
+}
+
+.heading .dark-mode {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    cursor: pointer;
+}
+
+.todo-body {
+    background-color: rgba(51, 62, 74, 0.8); /* Semi-transparent dark background */
+    width: 350px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+.todo-body h2 {
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    color: #fff; /* Adjust color for readability in dark mode */
+}
+
+.todo-body ul {
+    list-style-type: none;
+}
+
+.todo-body hr {
+    border: 0.2px solid #ffffff90;
+    margin: 15px 0;
+}
+
+.todo-body p {
+    display: inline;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff; /* Adjust color for readability in dark mode */
+}
+
+.todo-body span {
+    display: block;
+    margin-left: 42px;
+    font-size: 10px;
+}
+
+.check {
+    width: 20px;
+    cursor: pointer;
+}
+
+.todo-body li {
+    margin: 10px 0;
+}
+
+.todo-body i {
+    margin: 0 10px;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.new-task button {
+    height: 30px;
+    width: 60px;
+    background-color: #fff !important;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.new-task input {
+    height: 30px;
+    width: 200px;
+    border-radius: 3px;
+    outline: 0;
+    border: 0;
+    margin-left: 10px;
+}
+
+.new-task i {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task-info {
+    padding-left: 20px;
+}
+
+.submit {
+    font-weight: 500;
+}
+
+.submit:hover {
+    transform: scale(0.98);
+}
+
+.cross {
+    margin-left: 50%;
+    cursor: pointer;
+    margin-right: 18px !important;
+}
+
+.task-done {
+    text-decoration: line-through;
+    color: #808080; /* Adjust color for completed tasks */
+}
+
+body.light-mode .list-item p {
+    color: #000; /* Set font color for list items in light mode */
+}
+
+body.light-mode .new-task input {
+    color: #000; /* Set font color for input field in light mode */
+}
+footer {
+    color: #e71515;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}

@@ -1,0 +1,90 @@
+body {
+    font-family: "Calluna", "Acumin", "Plantin", "Sabon", arial, sans-serif;
+    font-size: 16px;
+    background-image: url("/images/kape.gif"); /* Add the path to your GIF */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Ensure background stays fixed during scrolling */
+  }
+  
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #3c2a21;
+    border-left: 1px solid black;
+    padding: 10px;
+    text-align: justify;
+  }
+  
+  .jumbotron {
+    padding: 20px;
+    text-align: center; /* Ensure text inside jumbotron is centered */
+    background-color: rgba(0, 0, 0, 0.5); /* Ensure background color has transparency */
+    color: #F8ECD1;
+    border-radius: 0;
+  }
+  
+  .description {
+    white-space: pre-wrap;
+  }
+  
+  .time-block {
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 15px;
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    border-top: 1px solid #F8ECD1;
+  }
+  
+  .hour {
+    font: bold 12px;
+    text-align: center;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #F8ECD1;
+  }
+  
+  .past {
+    background-color: rgba(255, 255, 255, 0.26);
+    color: black;
+  }
+  
+  .present {
+    background-color: rgba(255, 0, 149, 0.25);
+    color: black;
+  }
+  
+  .future {
+    background-color: rgba(0, 255, 234, 0.25);
+    color: black;
+  }
+  
+  .saveBtn {
+    border-left: 1px transparent;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .footer {
+    padding: 0;
+    clear: both;
+    font-family: "Calluna", "Acumin", "Plantin", "Sabon", arial, sans-serif;
+    text-align: center;
+    color: #3c2a21;
+  }
+  
+  .footer h2 {
+    font-size: 20px;
+  }
+  footer {
+    color: #e71515;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+}

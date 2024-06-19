@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Profile</title>
+    <link rel="stylesheet" href="profile creation.css">
+</head>
+<body>
+   <div class="min-h-screen flex items-center justify-center bg-zinc-100">
+      <div class="flex flex-col md:flex-row items-center justify-between p-4 bg-white shadow-lg rounded-lg max-w-4xl mx-auto">
+         <div class="w-full md:w-1/2 p-6">
+            <h2 class="text-2xl font-semibold mb-6">Create your profile</h2>
+            <div class="mb-4">
+               <label for="profileImage" class="block text-sm font-medium text-zinc-700 mb-1">Profile Image</label>
+               <img id="profileImagePreview" src="/images/profile pic.webp" alt="Profile Image" class="profile-image" />
+               <input type="file" id="profileImageInput" class="hidden" accept="image/*" />
+               <button id="changePhotoButton" class="text-blue-500 hover:text-blue-700 text-sm">Change photo</button>
+            </div>
+            <div class="mb-4">
+               <label for="name" class="block text-sm font-medium text-zinc-700">Your name</label>
+               <input type="text" id="name" name="name" class="mt-1 block w-full px-3 py-2 border border-zinc-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="E.g. Jane Doist" />
+            </div>
+            <div class="mb-6">
+               <label for="team" class="flex items-center">
+               <input id="team" type="checkbox" class="form-checkbox h-5 w-5 text-indigo-600" />
+               <span class="ml-2 text-sm text-zinc-700">I want to use Todoist with my team</span>
+               </label>
+            </div>
+            <button class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded">
+               <a href="linker.html" class="w-full flex justify-center border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-red-600 hover:bg-red-800">Continue
+              </a>
+              </button>
+         </div>
+         <div class="w-full md:w-1/2 p-6">
+            <img src="/images/Screenshot 2024-05-21 005842.png" alt="Productivity Stats" class="rounded-lg shadow-lg" />
+         </div>
+      </div>
+   </div>
+   <footer>
+      <p>&copy; 2024 Daily Routine Planner. Made with ❤️ by Nikita Bala.</p>
+  </footer> 
+   <script src="profile creation.js"></script>
+</body>
+</html>
